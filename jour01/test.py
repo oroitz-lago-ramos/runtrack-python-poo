@@ -1,5 +1,7 @@
 class Etudiant:
     niveau = "prepa"
+    def print_hello():
+        print("Hello!")
     
 class Etudiant2:
     batiment = "La Plateforme"
@@ -7,5 +9,6 @@ class Etudiant2:
         self.niveau = "prepa"
     
 print(Etudiant.niveau)
+Etudiant.print_hello()
 print(Etudiant2.batiment)
 # print(Etudiant2.niveau)

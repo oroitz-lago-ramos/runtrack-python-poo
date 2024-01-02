@@ -35,4 +35,7 @@ class Produit:
         
 baguette = Produit("Baguette", 0.5, 14)
 
-print(baguette.getPrixTTC)
+print(baguette.getPrixTTC())
+baguette.setNom("Banette")
+baguette.setPrixHT(1)
+print(baguette.getPrixTTC())
