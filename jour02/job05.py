@@ -43,3 +43,4 @@ class Voiture:
         return self.__reservoir
     
 mowombi = Voiture()
+mazomba = Voiture()
