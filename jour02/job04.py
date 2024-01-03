@@ -9,6 +9,7 @@ class Student:
     def add_credits(self,amount):
         if amount > 0:
             self.__credit_amount += amount
+            self.__level = self.__studentEval()
         
     def get_name(self):
         return self.__name
@@ -44,6 +45,8 @@ class Student:
             
 etudiant = Student("Doe", "Jhon", 145)
 etudiant.add_credits(15)
-etudiant.add_credits(20)
 etudiant.afficher_credits()
+etudiant.studentInfo()
+etudiant.add_credits(20)
+etudiant.add_credits(50)
 etudiant.studentInfo()
