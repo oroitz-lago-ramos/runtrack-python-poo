@@ -44,3 +44,6 @@ class Voiture:
     
 mowombi = Voiture()
 mazomba = Voiture()
+
+mowombi.demarrer()
+mazomba.demarrer()
