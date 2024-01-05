@@ -36,35 +36,35 @@ class Equipe:
             item.afficherStatistiques()
             print()
             
-roberto_lagrosseverge = Joueur("Roberto", 1, "Gardien")
-fernando_longuebite = Joueur("Fernando", 2, "Defense")
-alonso_allison = Joueur("Alonso", 3, "Attaquant")
+roberto = Joueur("Roberto", 1, "Gardien")
+fernando = Joueur("Fernando", 2, "Defense")
+alonso = Joueur("Alonso", 3, "Attaquant")
 
-minato_follekawazaki = Joueur("Minato", 1, "Gardien")
-nazuma_sexarigato = Joueur("Nazuma", 2, "Defense")
-porrete_lorenzo = Joueur("Porrete", 3, "Attaquant")
+minato = Joueur("Minato", 1, "Gardien")
+nazuma = Joueur("Nazuma", 2, "Defense")
+lorenzo = Joueur("Lorenzo", 3, "Attaquant")
 
-equipe_esp_gran_verga = Equipe("Real Gran Verga")
-equipe_jpn_ahegao = Equipe("Miyamoto Ahegao")
+equipe_esp = Equipe("Real Gran Via")
+equipe_jpn = Equipe("Miyamoto Socker")
 
-equipe_esp_gran_verga.ajouterJoueur(roberto_lagrosseverge)
-equipe_esp_gran_verga.ajouterJoueur(fernando_longuebite)
-equipe_esp_gran_verga.ajouterJoueur(alonso_allison)
-
-
-equipe_jpn_ahegao.ajouterJoueur(minato_follekawazaki)
-equipe_jpn_ahegao.ajouterJoueur(nazuma_sexarigato)
-equipe_jpn_ahegao.ajouterJoueur(porrete_lorenzo)
+equipe_esp.ajouterJoueur(roberto)
+equipe_esp.ajouterJoueur(fernando)
+equipe_esp.ajouterJoueur(alonso)
 
 
+equipe_jpn.ajouterJoueur(minato)
+equipe_jpn.ajouterJoueur(nazuma)
+equipe_jpn.ajouterJoueur(lorenzo)
 
-nazuma_sexarigato.recevoirUnCartonJaune()
-porrete_lorenzo.marquerUnBut()
-fernando_longuebite.marquerUnBut()
-fernando_longuebite.marquerUnBut()
-alonso_allison.marquerUnBut()
-alonso_allison.recevoirUnCartonRouge()
-minato_follekawazaki.marquerUnBut()
 
-equipe_esp_gran_verga.AfficherStatistiquesJoueurs()
-equipe_jpn_ahegao.AfficherStatistiquesJoueurs()
+
+nazuma.recevoirUnCartonJaune()
+lorenzo.marquerUnBut()
+fernando.marquerUnBut()
+fernando.marquerUnBut()
+alonso.marquerUnBut()
+alonso.recevoirUnCartonRouge()
+minato.marquerUnBut()
+
+equipe_esp.AfficherStatistiquesJoueurs()
+equipe_jpn.AfficherStatistiquesJoueurs()
